@@ -1,7 +1,7 @@
 # Fichiers compilés
 *.o
 *.out
-calc
+shader_app
 *.exe
 
 # Fichiers de débogage
