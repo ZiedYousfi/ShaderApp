@@ -1,0 +1,32 @@
+# Fichiers compilés
+*.o
+*.out
+calc
+*.exe
+
+# Fichiers de débogage
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Fichiers temporaires du système
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Fichiers de dépendances
+*.d
+
+# Fichiers de build
+build/
+Debug/
+Release/
+
+# Fichiers de cache
+.cache/
+
+# Fichiers de logs
+*.log

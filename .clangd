@@ -1,0 +1,4 @@
+CompileFlags:
+  Add:
+    - -I/opt/homebrew/Cellar/glfw/3.4/include
+    - -Iinclude
