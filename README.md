@@ -14,12 +14,16 @@ A lightweight OpenGL application for rendering custom shaders with support for b
 
 #### Linux/macOS
 ```bash
-gcc main.c -o shader_viewer -lglfw -lGL -ldl -lm -framework OpenGL
+clang main.c glad.c -o shader_app \
+    -Iinclude -Iinclude/KHR \
+    -I/opt/homebrew/Cellar/glfw/3.4/include \
+    -L/opt/homebrew/Cellar/glfw/3.4/lib \
+    -lglfw -framework OpenGL
 ```
 
 #### Windows (MinGW)
 ```bash
-gcc main.c -o shader_viewer.exe -lglfw3 -lopengl32 -lgdi32 -framework OpenGL
+gcc main.c glad.c -o shaderapp -Iinclude -Llib -lglfw3 -lopengl32 -lgdi32 -luser32 -lshell32 -lkernel32 -lwinmm -ladvapi32
 ```
 
 Make sure GLAD and GLFW header files are in your include path.
