@@ -6,6 +6,8 @@ if [ ! -f main.c ] || [ ! -f glad.c ]; then
     exit 1
 fi
 
+# find main.c | xargs clang-format -i
+
 # Compilation
 clang main.c glad.c -o shader_app \
     -Iinclude -Iinclude/KHR \

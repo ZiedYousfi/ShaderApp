@@ -1,0 +1,22 @@
+Language: Cpp
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 80
+UseTab: Never
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+BreakBeforeBraces: Attach
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesInParentheses: false
+IndentCaseLabels: true
+PointerAlignment: Right
+SortIncludes: true
+
+# Options spécifiques pour C
+AlignConsecutiveMacros: true
+AlignConsecutiveDeclarations: true
+AlignConsecutiveAssignments: true
+IndentGotoLabels: true
+SpaceAfterCStyleCast: true
