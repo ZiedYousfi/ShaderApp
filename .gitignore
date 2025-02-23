@@ -30,3 +30,7 @@ Release/
 
 # Fichiers de logs
 *.log
+
+# Sortie vidéo
+*.mp4
+frames/
